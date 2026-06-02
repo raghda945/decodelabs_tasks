@@ -1,67 +1,59 @@
-# Rule-Based AI Chatbot
+# Data Classification Using AI
 
 ## Project Overview
-This project is a simple rule-based chatbot built using Python. The chatbot interacts with users by responding to predefined inputs using if-else conditions.
+This project demonstrates a basic machine learning classification model using the Iris dataset. The model is trained to classify flower species based on their measurements.
 
 ## Objectives
-- Understand basic AI concepts
-- Practice decision-making logic
-- Implement a continuous conversation loop
+- Load and understand a dataset
+- Split data into training and testing sets
+- Train a machine learning model
+- Evaluate model performance
 
 ## Features
-- Responds to greetings
-- Handles exit commands
-- Uses conditional statements (if-else)
-- Runs continuously until the user exits
+- Dataset loading
+- Data preprocessing
+- Model training
+- Prediction generation
+- Accuracy evaluation
 
 ## Technologies Used
 - Python
+- Scikit-learn
+- NumPy
+
+## Algorithm Used
+K-Nearest Neighbors (KNN)
 
 ## Project Structure
 
-project_1/
+project_2/
 │
-├── chatbot.py
+├── classification.py
 ├── README.md
 └── requirements.txt
 
 ## How to Run
 
-1. Open terminal
-2. Navigate to the project folder
-3. Run:
+1. Install dependencies
 
 ```bash
-python chatbot.py
+pip install -r requirements.txt
 ```
 
-## Example
+2. Run the project
 
-Input:
-
-```
-hi
+```bash
+python classification.py
 ```
 
-Output:
+## Output Example
 
 ```
-Hello!
-```
-
-Input:
-
-```
-bye
-```
-
-Output:
-
-```
-Goodbye!
+Accuracy: 1.0
 ```
 
 ## Learning Outcomes
-- Control Flow
-- Conditional Logic
-- User Interaction
+- Supervised Learning
+- Classification
+- Model Evaluation
+- Dataset Handling
